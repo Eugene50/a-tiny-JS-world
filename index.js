@@ -11,12 +11,12 @@ class Citizen {
  
  class Human extends Citizen {
       constructor(species, gender, name, say, legs, hands ) {
-         super(species,gender,name,say,2,2)
+         super(species, gender, name, say, 2, 2)
       }
  }
  class Animal extends Citizen {
       constructor(species, gender, name, say, legs ) {
-          super(species,gender,name,say,4)
+          super(species, gender, name, say, 4)
       }
  }
  class Dog extends Animal {
